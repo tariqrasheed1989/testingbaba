@@ -25,7 +25,7 @@ public class Collections_Class
 		//lets check the 9 occurance
 		System.out.println("9 comes "+Collections.frequency(li, 9)+" times.");
 		//lets sort the list in ascending
-		Collections.sort(li);
+		Collections.sort(li);;
 		System.out.println(li);
 		//lets sort in descending
 		Collections.sort(li,Comparator.reverseOrder());

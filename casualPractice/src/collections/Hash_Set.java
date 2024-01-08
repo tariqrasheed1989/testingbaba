@@ -1,13 +1,13 @@
 package collections;
 
-import java.util.LinkedHashSet;
+import java.util.HashSet;
 import java.util.Set;
 
 public class Hash_Set 
 {
 	public static void main(String[] args) 
 	{
-		Set<Integer> set=new LinkedHashSet<Integer>();
+		Set<Integer> set=new HashSet<Integer>();
 		set.add(32);
 		set.add(12);
 		set.add(76);
@@ -16,6 +16,7 @@ public class Hash_Set
 		
 		//lets try to add 12 again
 		set.add(12);
+		
 		
 		System.out.println(set);//It won't take the duplicate of 12.
 		set.remove(12);//to remove
